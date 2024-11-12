@@ -1,0 +1,293 @@
+.shark
+{
+    width: 400px; height: 220px;
+    left: 50px; top: 470px;
+    position: absolute; 
+    animation-name: Shark;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Shark 
+{
+  0% {left:50px; top : 370px;}  
+  20% {left:550px; top:320px;}
+  40% {left:950px; top:370px;}
+  50% {left:1300px; top:330px;}
+  60% {left:1100px; top:380px;}
+  80% {left:550px; top:330px;}  
+  100% {left:150px; top:310px; transform:scaleX(-1);}
+}
+.diver1
+{
+    left: 50px; top: 150px;
+    width: 300px; height: 200px;
+    position: absolute;
+    animation-name: diver1;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes diver1 
+{
+  0% {left:50px; top:170px;}  
+  20% {left:650px; top:100px;}
+  40% {left:1250px; top:170px;}
+  50% {left:1450px; top:160px;}
+  60% {left:1150px; top:170px;}
+  80% {left:650px; top:160px;}  
+  100% {left:50px; top:160px; transform:scaleX(-1);}
+}
+.diver2
+{
+    width: 300px; height: 200px;
+    left: 50px; top: 250px;
+    position: relative;
+    animation-name: diver2;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes diver2 
+{
+  0% {left:100px; top:80px;}  
+  20% {left:700px; top:140px;}
+  40% {left:1150px; top:130px;}
+  50% {left:1400px; top:140px;}
+  60% {left:1150px; top:160px;}
+  80% {left:700px; top:140px;}  
+  100% {left:50px; top:100px; transform:scaleX(-1);}
+}
+.diver3
+{
+    width: 300px; height: 200px;
+    left: 50px; top: 50px;
+    position: absolute;
+    animation-name: diver3;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes diver3
+{
+  0% {left:100px; top:50px;}  
+  20% {left:600px; top:180px;}
+  40% {left:1050px; top:50px;}
+  50% {left:1300px; top:180px;}
+  60% {left:950px; top:50px;}
+  80% {left:400px; top:180px;}  
+  100% {left:100px; top:50px; transform:scaleX(-1);}
+}
+.goldFishSchool
+{
+    width: 170px; height: 170px;
+    left: 50px; top: 600px;
+    position: absolute; 
+    animation-name: goldFishSchool;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes goldFishSchool
+{
+  0% {left:50px; top:400px;}  
+  20% {left:550px; top:300px;}
+  40% {left:950px; top:400px;}
+  50% {left:1300px; top:300px;}
+  60% {left:1150px; top:400px;}
+  80% {left:550px; top:300px;}  
+  100% {left:150px; top:400px; transform:scaleX(-1);}
+}
+.faintSchool
+{
+    width: 100px; height: 120px;
+    left: 50px; top: 600px;
+    position: absolute; 
+    animation-name: faintSchool;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-play-state: unset;
+}
+@keyframes faintSchool
+{
+  0% {left:300px; top:5px;}  
+  20% {left:750px; top:5px;}
+  40% {left:1100px; top:5px;}
+  50% {left:1380px; top:5px;}
+  60% {left:1050px; top:5px;}
+  80% {left:650px; top:8px;}  
+  100% {left:300px; top:2px; }
+}
+.turtle
+{
+    width: 150px; height: 120px;
+    left: 50px; top: 600px;
+    position: absolute; 
+    animation-name: turtle;
+    animation-duration: 14s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes turtle
+{
+  0% {left:50px; top:400px;}  
+  20% {left:550px; top:300px;}
+  40% {left:950px; top:400px;}
+  50% {left:1300px; top:300px;}
+  60% {left:1100px; top:400px;}
+  80% {left:550px; top:300px;}  
+  100% {left:150px; top:400px; transform:scaleX(-1);}
+}
+.nenbien
+{
+    width: 100%; height: 100%;
+    position: absolute;
+    z-index: -1;
+    left: -10px; top: 0px;
+}
+.h1
+{
+    width: 20%; height: 35%;
+    left: 100px; top: 400px;
+    position: absolute; 
+    animation-name: h1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-play-state: unset;
+}
+@keyframes h1
+{
+  0% {left:190px; top:470px;}  
+  20% {left:170px; top:470px;}
+  40% {left:150px; top:470px;}
+  50% {left:130px; top:470px;}
+  60% {left:110px; top:470px;}
+  80% {left:90px; top:470px;}  
+  100% {left:70px; top:470px;}
+}
+.h7
+{
+    width: 20%; height: 35%;
+    left: 100px; top: 4400px;
+    position: absolute; 
+    animation-name: h7;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-play-state: unset;
+}
+@keyframes h7
+{
+  0% {left:480px; top:490px;}  
+  20% {left : 460px; top:490px;}
+  40% {left:440px; top:490px;}
+  50% {left:420px; top:490px;}
+  60% {left:400px; top:490px;}
+  80% {left:380px; top:490px;}  
+  100% {left:360px; top : 490px;}
+}
+.h5
+{
+    width: 15%; height: 35%;
+    left: 100px; top: 4400px;
+    position: absolute; 
+    animation-name: h5;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-play-state: unset;
+}
+@keyframes h5
+{
+  0% {left:-60px; top:480px;}  
+  20% {left : -80px; top:480px;}
+  40% {left: -100px; top:480px;}
+  50% {left:-120px; top:480px;}
+  60% {left:-140px; top:480px;}
+  80% {left:-160px; top:480px;}  
+  100% {left:-180px; top:480px;}
+}
+.h2
+{
+    width: 20%; height: 35%;
+    left: 100px; top: 4400px;
+    position: absolute; 
+    animation-name: h2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-play-state: unset;
+}
+@keyframes h2
+{
+  0% {left:780px; top:490px;}  
+  20% {left : 760px; top:490px;}
+  40% {left:740px; top:490px;}
+  50% {left:720px; top:490px;}
+  60% {left:700px; top:490px;}
+  80% {left:680px; top:490px;}  
+  100% {left:660px; top : 490px;}
+}
+.h3
+{
+    width: 20%; height: 35%;
+    left: 100px; top: 4400px;
+    position: absolute; 
+    animation-name: h3;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-play-state: unset;
+}
+@keyframes h3
+{
+  0% {left:1080px; top:480px;}  
+  20% {left : 1060px; top:480px;}
+  40% {left:1040px; top:480px;}
+  50% {left:1020px; top:480px;}
+  60% {left:1000px; top:480px;}
+  80% {left:980px; top:480px;}  
+  100% {left : 960px; top : 480px;}
+}
+.h6
+{
+    width: 14%; height: 37%;
+    left: 100px; top: 4400px;
+    position: absolute; 
+    animation-name: h6;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-play-state: unset;
+}
+@keyframes h6
+{
+  0% {left:1360px; top:480px;}  
+  20% {left : 1340px; top:480px;}
+  40% {left:1320px; top:480px;}
+  50% {left:1300px; top:480px;}
+  60% {left:1280px; top:480px;}
+  80% {left:1260px; top:480px;}  
+  100% {left : 1240px; top : 480px;}  
+}
+.h4
+{
+    width: 14%; height: 37%;
+    left: 100px; top: 4400px;
+    position: absolute; 
+    animation-name: h4;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-play-state: unset;
+}
+@keyframes h4
+{
+  0% {left:1560px; top:480px;}  
+  20% {left : 1540px; top:480px;}
+  40% {left:1520px; top:480px;}
+  50% {left:1500px; top:480px;}
+  60% {left:1480px; top:480px;}
+  80% {left:1460px; top:480px;}  
+  100% {left : 1440px; top : 480px;}  
+}

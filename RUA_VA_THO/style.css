@@ -1,0 +1,81 @@
+.h6
+{
+    width: 100%; height: 100%;
+    left: 0px; top: 0px;
+    z-index: -3;
+    position: absolute; 
+}
+.cay
+{
+    width: 20%; height: 45%;
+    left: 60px; top: 127px;
+    z-index: -1;
+    position: absolute; 
+}
+.h5
+{
+    width: 35%; height: 28%;
+    left: -60px; top: 590px;
+    z-index: -2;
+    position: absolute; 
+}
+.h1
+{
+    width: 35%;  height: 25%;
+    left: 400px; top: 630px;
+    z-index: -1;
+    position: absolute; 
+}
+.h4
+{
+    width: 18%; height: 25%;
+    left: 1250px; top: 460px;
+    position: absolute; 
+    animation-name: h4;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    animation-play-state: unset;
+}
+.h3
+{
+    width: 35%; height: 25%;
+    left: 900px; top: 630px;
+    z-index: -1;
+    position: absolute; 
+}
+@keyframes h4
+{
+    0% {left:1260px; top:480px;}  
+    20% {left : 1040px; top:480px;}
+    40% {left:820px; top:480px;}
+    50% {left:600px; top:480px;}
+    60% {left:400px; top:480px;}
+    70% {left:200px; top:480px;}
+    80% {left:-100px; top:480px;} 
+    90% {left:-500px; top:800px;} 
+    95% {left:1400px; top:1000px;} 
+    100% {left : 1400px; top : 480px;}  
+}
+.h2
+{
+    width: 18%; height: 25%;
+    left: 1200px; top: 400px;
+    position: absolute; 
+    animation-name: h2;
+    animation-duration: 19s;
+    animation-iteration-count: infinite;
+    animation-play-state: unset;
+}
+@keyframes h2
+{
+  0% {left:1260px; top:400px;}  
+  20% {left : 1040px; top:400px;}
+  40% {left:820px; top:400px;}
+  50% {left:600px; top:400px;}
+  60% {left:400px; top:400px;}
+  70% {left:200px; top:400px;}
+  80% {left:-100px; top:400px;} 
+  90% {left:-500px; top:800px;} 
+  95% {left:1400px; top:1000px;} 
+  100% {left : 1400px; top : 400px;}  
+}
